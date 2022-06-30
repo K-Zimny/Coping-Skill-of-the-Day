@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  background-color: #282828;
+}
+
+div {
+  max-width: 1920px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid #107272;
+  background-color: #1f1f1f;
+}
+
+h1 {
+  font-size: clamp(3rem, 2.5vw, 4rem);
+  color: #9f9f9f;
+  margin: 1rem;
+  text-align: center;
+}
+
+.coping-skill {
+  font-size: clamp(2rem, 2.5vw, 3rem);
+  color: #107272;
+  margin: 3rem;
+  text-align: center;
+}
+
+button {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  padding: 1.25rem 4rem;
+  background-color: #555555;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
