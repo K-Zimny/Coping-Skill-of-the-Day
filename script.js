@@ -7,7 +7,7 @@ const copingSkills = [
   "Exercise",
   "Connect with Others",
   "Acknowledge your positives",
-  "Mindfulness/Meditation",
+  "Mindfulness / Meditation",
   "Practice Gratitude",
   "Visualization",
   "Progressive Muscle Relaxation",
@@ -19,6 +19,13 @@ const copingSkills = [
   "Build self esteem",
   "Journal",
   "Get outside",
+  "Urge Surfing",
+  "Facts vs Opinion",
+  "Go for a walk",
+  "Do something you enjoy",
+  "Face unpleasant tasks early",
+  "Challenge Your Own Beliefs",
+  "Read something positive",
 ];
 const copingSkillParagraphElement = document.querySelector(".coping-skill");
 const newButton = document.querySelector("button");
@@ -30,8 +37,10 @@ copingSkills.splice(copingSkillIndex, 1);
 newButton.addEventListener("click", function () {
   copingSkillIndex = Math.floor(Math.random() * copingSkills.length);
   copingSkillParagraphElement.innerHTML = copingSkills[copingSkillIndex];
+
   if (copingSkills.length === 0) {
-    copingSkillParagraphElement.innerHTML = "No more Skills. :(";
+    copingSkillParagraphElement.innerHTML = "No more Skills :(";
   }
+
   copingSkills.splice(copingSkillIndex, 1);
 });
