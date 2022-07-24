@@ -42,3 +42,7 @@ button {
   display: block;
   margin: 0 auto;
 }
+
+.clr-primary {
+  color:#9f9f9f
+}
