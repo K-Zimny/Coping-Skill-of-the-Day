@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  color: #9f9f9f;
 }
 
 body {
@@ -44,5 +45,10 @@ button {
 }
 
 .clr-primary {
-  color:#9f9f9f
+  color: #9f9f9f;
+}
+
+b,
+br {
+  color: #9f9f9f;
 }
