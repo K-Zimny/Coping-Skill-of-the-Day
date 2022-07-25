@@ -65,17 +65,34 @@ const copingSkills = [
   "Shower",
   "Make a wellness toolbox",
   "Write out your early warning signs",
+  "Pay attention to your own needs and wants",
+  "Eat healthy foods",
+  "Personal Hygiene",
+  "Take some time todo things you enjoy",
+  "Get somethings done that you have been putting off",
+  "Do things that make use of your own special talents and abilities",
+  "Dress in cloths that make you feel good about yourself",
+  "Give yourself rewards",
+  "Spend time with people",
+  "Do something nice for another person",
+  "Learn something new and improve your skills",
+  "Make your living space a place that honors who you are",
+  "D.E.A.R.W.O.M.A.N",
 ];
 const copingSkillParagraphElement = document.querySelector(".coping-skill");
 const newButton = document.querySelector("button");
 let copingSkillIndex = Math.floor(Math.random() * copingSkills.length);
 
 copingSkillParagraphElement.innerHTML = copingSkills[copingSkillIndex];
+copingSkillParagraphElement.href =
+  "http://www.google.com/search?q=" + copingSkills[copingSkillIndex];
 copingSkills.splice(copingSkillIndex, 1);
 
 newButton.addEventListener("click", function () {
   copingSkillIndex = Math.floor(Math.random() * copingSkills.length);
   copingSkillParagraphElement.innerHTML = copingSkills[copingSkillIndex];
+  copingSkillParagraphElement.href =
+    "http://www.google.com/search?q=" + copingSkills[copingSkillIndex];
 
   if (copingSkills.length === 0) {
     copingSkillParagraphElement.innerHTML = "No more Skills :(";
