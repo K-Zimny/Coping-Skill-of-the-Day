@@ -1,6 +1,12 @@
 * {
   box-sizing: border-box;
   color: #9f9f9f;
+  font-size: var(--fs-500);
+}
+
+:root {
+  --fs-400: 1rem;
+  --fs-500: 1.25rem;
 }
 
 body {
@@ -10,6 +16,7 @@ body {
   flex-flow: column;
   align-items: center;
   background-color: #282828;
+  line-height: 1.5;
 }
 
 div {
