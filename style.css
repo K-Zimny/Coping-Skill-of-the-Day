@@ -41,6 +41,10 @@ h1 {
   margin: 3rem;
   text-align: center;
   display: block;
+  min-height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 button {
