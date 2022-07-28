@@ -77,7 +77,20 @@ const copingSkills = [
   "Do something nice for another person",
   "Learn something new and improve your skills",
   "Make your living space a place that honors who you are",
-  "D.E.A.R.W.O.M.A.N",
+  "D.E.A.R. W.O.M.A.N",
+  "Learn about Self Esteem",
+  "Face your fears about change",
+  "Set daily goals",
+  "Recognize all of your accomplishments and successes",
+  "Learn to love yourself",
+  "Believe in yourself",
+  "What are you good at",
+  "How have you helped others",
+  "What challenges have I overcome",
+  "What things make me unique",
+  "Examine your core beliefs",
+  "Nurture your support network",
+  "Be social, even if you dont feel like it",
 ];
 const copingSkillParagraphElement = document.querySelector(".coping-skill");
 const newButton = document.querySelector("button");
