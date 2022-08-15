@@ -28,7 +28,8 @@ div {
   background-color: #1f1f1f;
 }
 
-h1 {
+h1,
+h2 {
   font-size: clamp(3rem, 2.5vw, 4rem);
   color: #9f9f9f;
   margin: 1rem;
