@@ -65,3 +65,11 @@ b,
 br {
   color: #9f9f9f;
 }
+
+/* --------------------------- */
+/* input blocks */
+
+input {
+  display: block;
+  width: 100%;
+}
